@@ -1,0 +1,79 @@
+================================================================================
+EPIC-003 E2E TEST SUITE GENERATION - COMPLETION SUMMARY
+================================================================================
+
+FILE CREATED:
+/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/suites/epic-03-e2e-suite.md
+
+FILE STATISTICS:
+- Total Lines: 1,303
+- File Size: 45 KB
+- Format: Gherkin (Feature/Background/Scenario)
+- Version: 1.0.0
+- Date Created: 2026-08-21
+
+TEST COVERAGE:
+================================================================================
+
+Total Test Cases: 60 (TC_EPIC03_001 to TC_EPIC03_060)
+
+By Category:
+  - Navigation: 24 test cases
+  - Content: 12 test cases
+  - Performance: 3 test cases
+  - Error Handling: 9 test cases
+  - Edge Cases: 8 test cases
+
+By Priority:
+  - P0 (Must Have): 20 test cases
+  - P1 (Should Have): 28 test cases
+  - P2 (Could Have): 8 test cases
+
+By Complexity:
+  - Low: 28 test cases
+  - Medium: 22 test cases
+  - High: 6 test cases
+
+FEATURES COVERED:
+================================================================================
+
+1. All Topics Hub Navigation (6 test cases)
+2. Legal Topic Page (6 test cases)
+3. Transfer System Topic Page (6 test cases)
+4. Women's Football Topic Page (6 test cases)
+5. Advancing Football Topic Page (6 test cases)
+6. Refereeing Topic Page (6 test cases)
+7. Innovation Topic Page (6 test cases)
+8. Talent Development Topic Page (6 test cases)
+9. Cross-Topic Navigation and Consistency (5 test cases)
+10. Boundary and Edge Case Testing (8 test cases)
+
+REQUIREMENTS FULFILLED:
+================================================================================
+
+✓ Gherkin format (Feature/Background/Scenario)
+✓ Test cases for all 7 topic pages
+✓ Happy path tests (navigation, content loading)
+✓ Negative path tests (error handling, missing content)
+✓ Boundary tests (edge cases, network conditions)
+✓ TC_ID format: TC_EPIC03_XX (60 test cases)
+✓ Metadata for each test case
+✓ Focus on https://inside.fifa.com/all-topics navigation
+✓ Mapped FRs: [FR-002]
+✓ Priority: P0 (Must Have)
+✓ Complexity: Medium
+✓ Dependencies: EPIC-001, EPIC-002
+
+EXECUTION PLANNING:
+================================================================================
+
+Estimated Total Execution Time: 450-730 minutes (7.5-12 hours)
+
+Execution Phases:
+1. Phase 1: All-Topics Hub Tests (TC_EPIC03_001 to TC_EPIC03_006)
+2. Phase 2: Individual Topic Page Tests (TC_EPIC03_007 to TC_EPIC03_048)
+3. Phase 3: Cross-Topic Navigation Tests (TC_EPIC03_049 to TC_EPIC03_053)
+4. Phase 4: Boundary and Edge Case Tests (TC_EPIC03_054 to TC_EPIC03_060)
+
+STATUS: Ready for Execution
+================================================================================

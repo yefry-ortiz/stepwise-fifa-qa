@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-21T01:00:10.829Z",
+  "updated_at": "2026-08-21T15:54:55.253Z",
   "project_id": "path:default",
   "questions": [
     {
@@ -135,7 +135,7 @@
       "assumption_if_unanswered": "Simultaneous deployment",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -154,8 +154,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "Simultaneous deployment",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:57:57.863Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:57:57.863Z"
+      },
       "created_at": "2026-08-21T00:45:34.144Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:57:57.863Z"
     },
     {
       "key": "2c7c254a-5227-5b56-b6da-713aa4ef3d6c",
@@ -168,7 +179,7 @@
       "assumption_if_unanswered": "Playwright performance APIs",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -187,8 +198,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "Playwright performance APIs",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:57:59.018Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:57:59.018Z"
+      },
       "created_at": "2026-08-21T00:45:34.145Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:57:59.018Z"
     },
     {
       "key": "7f3c5445-48a9-52ce-a36c-11605b23276f",
@@ -202,7 +224,7 @@
       "assumption_if_unanswered": "10 minute total budget",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -221,8 +243,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "10 minute total budget",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:57:52.570Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:57:52.570Z"
+      },
       "created_at": "2026-08-21T00:45:34.145Z",
-      "updated_at": "2026-08-21T01:00:10.827Z"
+      "updated_at": "2026-08-21T14:57:52.570Z"
     },
     {
       "key": "818d63b2-228c-5981-8190-3435424a88cd",
@@ -235,7 +268,7 @@
       "assumption_if_unanswered": "WCAG 2.1 AA",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -254,8 +287,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "WCAG 2.1 AA",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:57:59.880Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:57:59.880Z"
+      },
       "created_at": "2026-08-21T00:45:34.145Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:57:59.880Z"
     },
     {
       "key": "5f59cdb2-c6a5-53a2-a29d-1657c0041a88",
@@ -268,7 +312,7 @@
       "assumption_if_unanswered": "30 days retention",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -287,8 +331,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "30 days retention",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:01.020Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:01.020Z"
+      },
       "created_at": "2026-08-21T00:45:34.145Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:01.020Z"
     },
     {
       "key": "db507a4e-a4c6-5741-824f-67d7c2eb13d6",
@@ -365,7 +420,7 @@
       "assumption_if_unanswered": "Use anonymized data",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -384,8 +439,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "Use anonymized data",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:02.101Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:02.101Z"
+      },
       "created_at": "2026-08-21T00:45:34.161Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:02.101Z"
     },
     {
       "key": "39e53c84-8704-5e17-b3c2-6e8ef5229c5e",
@@ -396,7 +462,7 @@
       "assumption_if_unanswered": "5 second delays between tests",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -415,8 +481,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "5 second delays between tests",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:03.240Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:03.240Z"
+      },
       "created_at": "2026-08-21T00:45:34.161Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:03.240Z"
     },
     {
       "key": "8f86a0ab-ad6d-5e19-92a6-5eada1bce0f1",
@@ -427,7 +504,7 @@
       "assumption_if_unanswered": "Weekly validation",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -446,8 +523,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "Weekly validation",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:07.726Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:07.726Z"
+      },
       "created_at": "2026-08-21T00:45:34.161Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:07.726Z"
     },
     {
       "key": "799ce7fc-e8d5-596d-8a67-242b8b80998b",
@@ -458,7 +546,7 @@
       "assumption_if_unanswered": "Same as English structure",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -477,8 +565,19 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "Same as English structure",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:13.410Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:13.410Z"
+      },
       "created_at": "2026-08-21T00:45:34.161Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:13.410Z"
     },
     {
       "key": "73636176-2724-50fc-a3be-7cc614169e0e",
@@ -489,7 +588,7 @@
       "assumption_if_unanswered": "GitHub Actions integration",
       "answer_shape": "free_text",
       "audience": "internal",
-      "status": "open",
+      "status": "waived",
       "occurrences": [
         {
           "capability": "quality-engineering-planning",
@@ -508,8 +607,139 @@
           "source": "sidecar"
         }
       ],
+      "answer": {
+        "value": "GitHub Actions integration",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T14:58:14.808Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T14:58:14.808Z"
+      },
       "created_at": "2026-08-21T00:45:34.161Z",
-      "updated_at": "2026-08-21T01:00:10.828Z"
+      "updated_at": "2026-08-21T14:58:14.808Z"
+    },
+    {
+      "key": "63f0a3a8-a330-56ea-9739-94a353ef6a8b",
+      "local_ids": [],
+      "question": "question_id: \"OQ-001\" question: \"Specific user stories for each epic would enhance test case granularity\" impact: \"Medium\" assumption: \"FR acceptance criteria provide sufficient test coverage\" source: \"No user stories provided in inputs\"",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "answered",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "e2e-test-cases-generation",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T15:33:29.622Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "\"Current FR acceptance criteria provide sufficient test coverage for the InsideFIFA-WEB project scope. The functional requirements (FR-001 to FR-005) contain detailed acceptance criteria that adequately define test scenarios without requiring additional user story granularity.\"",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T15:51:27.914Z",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-planning",
+            "session": "Test-Strategy-1",
+            "step_id": "e2e-test-cases-generation"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md"
+        ]
+      },
+      "created_at": "2026-08-21T15:33:29.622Z",
+      "updated_at": "2026-08-21T15:51:27.914Z"
+    },
+    {
+      "key": "f035a971-57bb-579e-8b33-d8775de48fde",
+      "local_ids": [],
+      "question": "question_id: \"OQ-002\" question: \"Detailed persona definitions would improve actor-specific test scenarios\" impact: \"Low\" assumption: \"Generic personas derived from epic contexts are sufficient\" source: \"No explicit personas in source documents\"",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "answered",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "e2e-test-cases-generation",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T15:33:29.622Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "Generic personas derived from epic contexts are sufficient for the InsideFIFA-WEB project. The test scenarios focus on technical navigation validation rather than user experience, making detailed persona definitions unnecessary.",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T15:52:35.873Z",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-planning",
+            "session": "Test-Strategy-1",
+            "step_id": "e2e-test-cases-generation"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md"
+        ]
+      },
+      "created_at": "2026-08-21T15:33:29.622Z",
+      "updated_at": "2026-08-21T15:52:35.873Z"
+    },
+    {
+      "key": "64a6499a-3eb5-5f25-9c75-8af6194988fb",
+      "local_ids": [],
+      "question": "question_id: \"OQ-003\" question: \"Specific page elements and selectors would enhance test precision\" impact: \"Medium\" assumption: \"Generic element references are adequate for test design\" source: \"No detailed UI specifications provided\"",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "answered",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "e2e-test-cases-generation",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T15:33:29.622Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "Basic element mapping would be beneficial. Document high-level element categories (navigation menus, content areas, links) without specific selectors to improve test design precision.",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T15:54:55.253Z",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-planning",
+            "session": "Test-Strategy-1",
+            "step_id": "e2e-test-cases-generation"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md"
+        ]
+      },
+      "created_at": "2026-08-21T15:33:29.622Z",
+      "updated_at": "2026-08-21T15:54:55.253Z"
     }
   ],
   "aliases": {}

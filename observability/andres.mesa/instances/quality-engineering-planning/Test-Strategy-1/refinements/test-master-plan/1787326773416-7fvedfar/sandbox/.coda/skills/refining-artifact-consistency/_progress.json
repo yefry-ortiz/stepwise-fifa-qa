@@ -1,0 +1,27 @@
+{
+  "skill": "engineering-skills",
+  "session_id": "ENGINEERING-REFINING-ARTIFACT-CONSISTENCY-20260518",
+  "status": "COMPLETED",
+  "started_at": "2026-05-18T22:21:25Z",
+  "completed_at": "2026-05-18T22:25:29Z",
+  "total": 4,
+  "completed": 4,
+  "items": [
+    {
+      "id": "skill",
+      "status": "completed"
+    },
+    {
+      "id": "references",
+      "status": "completed"
+    },
+    {
+      "id": "evals",
+      "status": "completed"
+    },
+    {
+      "id": "audit",
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "skill_name": "refining-artifact-consistency",
+  "evals": [
+    {
+      "id": 1,
+      "name": "resolve-supported-pending",
+      "prompt": "Inside a Stepwise refinement sandbox, resolve TBDs in a target code-design artifact. Writable target: ./artifacts/outputs/code-development/research/RESEARCH-SPEC.md. Read-only sources: /project/artifacts and /project/context-pack. A pending item asks for source_code path. The read-only DTR says source_code: /project/source/game. Apply only evidence-backed edits.",
+      "expected_output": "Reads the target artifact and read-only DTR evidence, updates only the sandbox target artifact, preserves existing structure and IDs, resolves the source_code pending with the DTR path, and reports the changed file plus evidence used.",
+      "mode": "embedded",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "conflicting-upstream-evidence",
+      "prompt": "Validate consistency for an architecture artifact. The target artifact says deployment is static hosting, one upstream ADR says static hosting, and a later runtime artifact says container deployment but lacks approval status. The human asks to make the artifact consistent.",
+      "expected_output": "Does not silently rewrite the deployment model. Preserves stable headings and IDs, records or keeps an explicit pending/open question for the conflict when no authoritative resolution exists, and explains the unresolved evidence conflict in the response.",
+      "mode": "embedded",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "selection-refinement-no-contract-break",
+      "prompt": "Refine selected rendered text in a QE master plan table row. The row includes TC IDs, FR links, and risk rating. The human asks to clarify rationale. Read-only context supports the rationale but not a risk change.",
+      "expected_output": "Edits only the selected row or smallest containing block, keeps TC IDs, FR links, table columns, and risk rating unchanged, adds concise supported rationale, and summarizes evidence without changing canonical files.",
+      "mode": "embedded",
+      "files": []
+    }
+  ]
+}

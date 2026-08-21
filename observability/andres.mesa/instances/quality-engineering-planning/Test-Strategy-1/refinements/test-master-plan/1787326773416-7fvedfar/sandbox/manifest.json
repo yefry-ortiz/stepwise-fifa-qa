@@ -1,0 +1,14 @@
+{
+  "project_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa",
+  "sandbox_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/refinements/test-master-plan/1787326773416-7fvedfar/sandbox",
+  "original_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/refinements/test-master-plan/1787326773416-7fvedfar/original",
+  "target_roots": [
+    {
+      "path": "artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+      "type": "file"
+    }
+  ],
+  "original_files": {
+    "artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md": "a1affdc7ada055f8a961b71967dedc1a22126ee3326c3e2dc7d5cd5810b453ed"
+  }
+}

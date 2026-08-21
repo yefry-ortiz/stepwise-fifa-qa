@@ -1,0 +1,14 @@
+{
+  "project_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa",
+  "sandbox_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/refinements/e2e-test-cases-generation/1787327766043-1odctdkz/sandbox",
+  "original_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/refinements/e2e-test-cases-generation/1787327766043-1odctdkz/original",
+  "target_roots": [
+    {
+      "path": "artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md",
+      "type": "file"
+    }
+  ],
+  "original_files": {
+    "artifacts/outputs/quality-engineering-planning/e2e-test-cases/E2E-MANIFEST-Test-Strategy-1.md": "43cdb6d4baea61ccfa2928920fefa396d73ea055550cc8fdcbdad142f56c2345"
+  }
+}

@@ -74,5 +74,43 @@
     "work_ids": [
       "InsideFIFAP-"
     ]
+  },
+  {
+    "execution_id": "3c9d15de-366c-4635-9a52-4cae3812bdf3",
+    "step_id": "e2e-test-cases-generation",
+    "version_sequence": 1,
+    "session_name": "Test-Strategy-1",
+    "capability_name": "quality-engineering-planning",
+    "started_at": "2026-08-21T14:59:39.766Z",
+    "completed_at": "2026-08-21T15:33:29.463Z",
+    "duration_seconds": 2030,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda",
+    "run_id": "1787324379766-a6ynnu8y",
+    "model": "globant_dgx/GLM-4.6",
+    "model_tier": "worker",
+    "session_resume": {
+      "resumed": false,
+      "cold_reason": "first_run"
+    },
+    "parallel_delegation": {
+      "available": true,
+      "used": true,
+      "count": 7
+    },
+    "token_usage": {
+      "input_tokens": 1611935,
+      "output_tokens": 14537,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0
+    },
+    "items_spawned": 15,
+    "artifact_group_id": "ef1441c5-c001-4a1d-9232-9f5da1e62e95",
+    "project_id": "InsideFifa-Test",
+    "organization_id": "Test-FIFA",
+    "work_ids": [
+      "InsideFIFAP-"
+    ]
   }
 ]
