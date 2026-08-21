@@ -1,0 +1,55 @@
+===== EXECUTION START =====
+timestamp: 2026-08-21T19:14:29.981Z
+capability: context-pack
+session: ab74b75d-df1a-4cce-91f1-b56d801ac3a7
+stepId: analyze-context-pack-inputs
+model: anthropic/claude-sonnet-5
+executor: coda
+runId: 1787339666955-2tjrvy0o
+user_id: andres.mesa@globant.com
+===== STDIN (prompt) =====
+Analyze inputs for context-pack generation.
+Project root: /Users/andres.mesa/_dev/GLB/stepwise-fifa-qa
+Selected inputs — analyze ONLY these paths (recursing into any that are directories):
+- artifacts/inputs/documentation/adrs
+- artifacts/inputs/documentation/architecture
+- artifacts/inputs/documentation/epics.md
+- artifacts/inputs/documentation/prd.md
+Everything else under artifacts/inputs/ is OUT OF SCOPE for this run: do not read it, do not enumerate it, do not cite it as a source. This overrides the skill's default 'enumerate INPUT_ROOT recursively'.
+Execution protocol: ./context-pack/system/execution-protocol.md — it holds the routing rule plus the universal sections (§2, §10.5, §11) inline.
+Every other section is a standalone file: ./context-pack/system/execution-protocol/<NN>-<name>.md (01-session-identity, 04-memory-bank, 07-repair-mode, 10-section-generation, 14-parallel-fanout, …).
+Resolve your route against those paths and read ONLY the sections your route selects. Do not search the filesystem for the protocol, and do not read the root file end-to-end for a section that lives in its own file.
+The `tech-blueprints` skill IS available in this run and Step 0 (blueprint selection) is MANDATORY, not conditional.
+Unless artifacts/inputs/tech-stack-selection.md already exists, invoke `/tech-blueprints` before Step 1 and let it derive the stack from the selected inputs. Take the 'tech-blueprints unavailable' branch only if the invocation itself fails, and record that failure in Open Questions.
+
+## Skills
+Use only these skills (never via the stepwise CLI):
+- analyze-context-pack-inputs
+- tech-blueprints
+
+LOADING THE SKILL BODY IS MANDATORY. Before your first write to the
+workspace, load the FULL body of every skill listed above and execute its
+workflow. Load it through your runtime's native skill mechanism — a
+skill/skills tool, or the slash-command form (e.g. `/analyze-context-pack-inputs`) if your
+harness supports it. If neither exists, read the skill file directly from
+your runtime's skills directory (project-local `<runtime-dir>/skills/analyze-context-pack-inputs/SKILL.md`
+— e.g. `.coda/skills/`, `.claude/skills/` — or the matching global
+directory under your home folder). Executing the workflow from memory or
+from this prompt's summary of it, without having loaded the skill body, is
+a protocol violation and will fail post-run review.
+
+## Runtime rules
+
+You are a one-shot agent invocation started by Stepwise. This is NOT a capability step: there is no stepwise session backing this run, no step navigation, and no output sidecar to write.
+
+Do NOT call any `stepwise` CLI command (`stepwise session show`, `status`, `exec`, `complete`, `next`, `exec-fail`, …). No session exists for this run, so every one of them will fail.
+
+Complete the task described above, write the files it asks for, and stop.
+
+Parallel delegation: ENABLED BY THE OPERATOR for this run. This line is your EXPLICIT operator authorization and instruction to use parallel subagents — you do NOT need any further user request to spawn them. When a skill declares execution-protocol §14 independent units (e.g. per file, per story, per decision, per checklist item), you SHOULD dispatch those units to parallel subagents by default rather than processing them inline, unless there are fewer than 3 units. This is an operator directive, not an optional suggestion. Workers are read/write on their own bounded unit and return a compact result; only YOU (the coordinator) write the shared trackers and the §11 sidecar. (If your runtime has no subagent/task tool despite this line, fall back to the §14 inline loop — identical output.)
+
+===== OUTPUT =====
+
+{"type":"agent_start","payload":{"turnId":"7c008692-ad3a-48d7-b587-abe75aadc2a0"}}
+{"type":"turn_start","payload":{"turnId":"7c008692-ad3a-48d7-b587-abe75aadc2a0"}}
+[?1006l[?1002l[?2004l[?1049l]111]11;[?1049l

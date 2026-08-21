@@ -1,0 +1,30 @@
+{
+  "skill": "generate-context-pack",
+  "session_id": "CTXPACK-STEPWISE-FIFA-QA-20260821",
+  "status": "COMPLETED",
+  "started_at": "2026-08-21T19:43:18Z",
+  "completed_at": "2026-08-21T19:58:00Z",
+  "total": 19,
+  "completed": 19,
+  "items": [
+    "domain.md",
+    "arch-standards.md",
+    "tech-policy.md",
+    "coding-standards.md",
+    "constraints.md",
+    "security.md",
+    "customer-background.md",
+    "test-standards.md",
+    "automation-standards.md",
+    "test-data-policy.md",
+    "env-config.md",
+    "best-practices.md",
+    "config-management-rules.md",
+    "infrastructure.md",
+    "validation-tools.md",
+    "project-inventory.md",
+    "codebase-map.md",
+    "ux-design.md",
+    "context-pack-index.md"
+  ]
+}

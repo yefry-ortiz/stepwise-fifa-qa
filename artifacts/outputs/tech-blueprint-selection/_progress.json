@@ -1,0 +1,14 @@
+{
+  "skill": "tech-blueprints",
+  "session_id": "BLUEPRINT-STEPWISE-FIFA-QA-20260821",
+  "status": "COMPLETED",
+  "started_at": "2026-08-21T19:25:05Z",
+  "completed_at": "2026-08-21T19:35:00Z",
+  "total": 3,
+  "completed": 3,
+  "items": [
+    {"id": "node-typescript", "status": "complete", "file": "artifacts/inputs/tech-blueprints/l2-stacks/node-typescript.md"},
+    {"id": "security-baseline", "status": "complete", "file": "artifacts/inputs/tech-blueprints/l4-concerns/security-baseline.md"},
+    {"id": "pre-ship-checklist", "status": "complete", "file": "artifacts/inputs/tech-blueprints/l4-concerns/pre-ship-checklist.md"}
+  ]
+}
