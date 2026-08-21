@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-21T15:54:55.253Z",
+  "updated_at": "2026-08-21T22:28:10.251Z",
   "project_id": "path:default",
   "questions": [
     {
@@ -740,6 +740,298 @@
       },
       "created_at": "2026-08-21T15:33:29.622Z",
       "updated_at": "2026-08-21T15:54:55.253Z"
+    },
+    {
+      "key": "88cb220a-2ad1-547a-a6d5-64ca59c1df7e",
+      "local_ids": [
+        "PI-01"
+      ],
+      "question": "test_cases_path and test_strategy_path parameters resolve to empty directories; real content was located at sibling paths (e2e-test-cases/ and STRATEGY-SPEC-Test-Strategy-1.md)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "propagated",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "update parameters:   test_cases_path: \"./e2e-test-cases\"  # Correct path to test cases   test_strategy_path: \"./STRATEGY-SPEC-Test-Strategy-1.md\"  # Correct path to strategy",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T21:52:11.712Z",
+        "note": "artifacts rewritten by a re-run of the step",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-web-automation",
+            "session": "Web-Automation-Session-1",
+            "step_id": "analyze-test-cases",
+            "resolved_at": "2026-08-21T22:28:10.251Z",
+            "resolved_by": "step re-run"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md"
+        ],
+        "resolved_at": "2026-08-21T22:28:10.251Z"
+      },
+      "created_at": "2026-08-21T21:45:38.831Z",
+      "updated_at": "2026-08-21T22:28:10.251Z"
+    },
+    {
+      "key": "b56fe876-7783-579f-8366-221f4ab52f46",
+      "local_ids": [
+        "PI-02"
+      ],
+      "question": "No automation_code_path/test-inventory.md exists yet — cannot assess update/duplicate classification against prior automation",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "propagated",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "# Create the missing test inventory mkdir -p automation_code_path touch automation_code_path/test-inventory.md Create initial test inventory structure: # automation_code_path/test-inventory.md version: 1.0.0 created_at: 2025-08-21 session_id: INITIAL-TEST-INVENTORY  ## Test Inventory Status  ### Existing Automation | test_id | test_name | file_path | status | last_updated | coverage | |---------|-----------|-----------|--------|--------------|----------|  ### Automation Gaps | epic_id | test_case_id | automation_status | priority | notes | |---------|--------------|------------------|----------|-------|  ### Classification Rules - **UPDATE**: Existing automation found for test case - **DUPLICATE**: Multiple automation instances for same test - **NEW**: No existing automation found",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T22:02:16.759Z",
+        "note": "artifacts rewritten by a re-run of the step",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-web-automation",
+            "session": "Web-Automation-Session-1",
+            "step_id": "analyze-test-cases",
+            "resolved_at": "2026-08-21T22:28:10.251Z",
+            "resolved_by": "step re-run"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md"
+        ],
+        "resolved_at": "2026-08-21T22:28:10.251Z"
+      },
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.251Z"
+    },
+    {
+      "key": "d2f5aeab-10ad-5863-88e2-102212f895af",
+      "local_ids": [
+        "CG-01"
+      ],
+      "question": "No dedicated test-reliability/flakiness measurement TC against NFR-002 (95% pass rate target)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "traces_to": [
+            "performance_gates"
+          ],
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.118Z"
+    },
+    {
+      "key": "0bd5d857-5b15-548c-ac80-0f67a11f151b",
+      "local_ids": [
+        "CG-02"
+      ],
+      "question": "No screen-reader validation TC (strategy already marks this 0% automation_level / manual)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "traces_to": [
+            "cross_cutting accessibility"
+          ],
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.118Z"
+    },
+    {
+      "key": "9aebba0c-f4d4-5be9-a5b9-ccfb63f98d61",
+      "local_ids": [
+        "CG-03"
+      ],
+      "question": "EPIC-006 cross-browser TCs (39 partial + 2 manual_only) exceed current Desktop-Chrome-only validated scope (NFR-004)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "traces_to": [
+            "cross-browser expansion"
+          ],
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.118Z"
+    },
+    {
+      "key": "985f94e4-5acc-547d-b8c1-84744eda4c98",
+      "local_ids": [
+        "CG-04"
+      ],
+      "question": "No dedicated visual-regression tool selected in STRATEGY-SPEC tool_selections despite 152 TCs needing visual/subjective judgment",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "traces_to": [
+            "tool_selections"
+          ],
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.118Z"
+    },
+    {
+      "key": "af581595-9c83-595a-bb3d-bcbb36246063",
+      "local_ids": [
+        "UG-01"
+      ],
+      "question": "OQ-799ce7fc: Spanish and French content structure variations not fully validated (assumption: same as English structure)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "propagated",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "Long-term Solution  Implement Language-Agnostic Testing  // Example: Language-independent selectors export class BasePage {   // Use data-testid instead of text-based selectors   getSubmitButton() {     return this.page.locator('[data-testid=\"submit-button\"]');   }      // Validate structure regardless of language   async validatePageStructure() {     const expectedStructure = {       header: '[data-testid=\"page-header\"]',       navigation: '[data-testid=\"main-navigation\"]',       content: '[data-testid=\"page-content\"]',       footer: '[data-testid=\"page-footer\"]'     };          for (const [key, selector] of Object.entries(expectedStructure)) {       await expect(this.page.locator(selector)).toBeVisible();     }   } } Recommendation  Treat this as a technical debt item that needs validation before production deployment. The assumption should be:  1. Documented in your constraints and risks 2. Validated through structured testing 3. Mitigated with language-agnostic test design 4. Monitored in your quality gates",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T21:55:40.549Z",
+        "note": "artifacts rewritten by a re-run of the step",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-web-automation",
+            "session": "Web-Automation-Session-1",
+            "step_id": "analyze-test-cases",
+            "resolved_at": "2026-08-21T22:28:10.251Z",
+            "resolved_by": "step re-run"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md"
+        ],
+        "resolved_at": "2026-08-21T22:28:10.251Z"
+      },
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.251Z"
+    },
+    {
+      "key": "7902e6cb-9939-5445-a6de-769b29896677",
+      "local_ids": [
+        "UG-02"
+      ],
+      "question": "OQ-39e53c84: Rate limiting policies for automated access not finalized (assumption: 5 second delays between tests)",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "propagated",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-web-automation",
+          "session": "Web-Automation-Session-1",
+          "step_id": "analyze-test-cases",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "raised_at": "2026-08-21T22:28:10.118Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "Add to your constraints.md: ## Rate Limiting Constraints  ### Current Assumption (OQ-39e53c84) - **Assumed Policy**: 5 second delays between test actions - **Risk Level**: High - **Status**: Unconfirmed with system owners - **Potential Impact**: IP blocking, account suspension, test failures  ### Mitigation Measures 1. **Conservative Delays**: Start with 10-second delays (2x assumption) 2. **Request Batching**: Group related actions to minimize requests 3. **Test User Isolation**: Use dedicated test accounts 4. **Monitoring**: Watch for HTTP 429 responses 5. **Circuit Breaker**: Stop execution on rate limit detection",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T21:58:48.460Z",
+        "note": "artifacts rewritten by a re-run of the step",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-web-automation",
+            "session": "Web-Automation-Session-1",
+            "step_id": "analyze-test-cases",
+            "resolved_at": "2026-08-21T22:28:10.251Z",
+            "resolved_by": "step re-run"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md"
+        ],
+        "resolved_at": "2026-08-21T22:28:10.251Z"
+      },
+      "created_at": "2026-08-21T21:45:38.832Z",
+      "updated_at": "2026-08-21T22:28:10.251Z"
     }
   ],
   "aliases": {}

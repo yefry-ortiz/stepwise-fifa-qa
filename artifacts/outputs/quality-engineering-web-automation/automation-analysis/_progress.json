@@ -1,0 +1,31 @@
+{
+  "skill": "analyze-test-cases",
+  "session_id": "ANALYSIS-INSIDEFIFA-WEB-20260821",
+  "status": "COMPLETED",
+  "started_at": "2026-08-21T21:30:59Z",
+  "completed_at": "2026-08-21T22:00:00Z",
+  "skeleton_written": true,
+  "sections": {
+    "executive_metrics": "complete",
+    "original_test_cases": "complete",
+    "quality_assessment": "complete",
+    "traceability_matrix": "complete",
+    "gap_analysis": "complete",
+    "classification": "complete",
+    "validations": "complete",
+    "open_questions": "complete"
+  },
+  "total": 367,
+  "completed": 367,
+  "items": [
+    {"id": "EPIC-001", "status": "complete", "file": "quality-assessment/epic-01-quality-assessment.md", "tc_count": 40},
+    {"id": "EPIC-002", "status": "complete", "file": "quality-assessment/epic-02-quality-assessment.md", "tc_count": 45},
+    {"id": "EPIC-003", "status": "complete", "file": "quality-assessment/epic-03-quality-assessment.md", "tc_count": 60},
+    {"id": "EPIC-004", "status": "complete", "file": "quality-assessment/epic-04-quality-assessment.md", "tc_count": 42},
+    {"id": "EPIC-005", "status": "complete", "file": "quality-assessment/epic-05-quality-assessment.md", "tc_count": 48},
+    {"id": "EPIC-006", "status": "complete", "file": "quality-assessment/epic-06-quality-assessment.md", "tc_count": 62},
+    {"id": "EPIC-007", "status": "complete", "file": "quality-assessment/epic-07-quality-assessment.md", "tc_count": 70},
+    {"id": "spec", "status": "complete", "file": "ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md", "tc_count": 0},
+    {"id": "audit", "status": "complete", "file": "ANALYSIS-AUDIT-ANALYSIS-INSIDEFIFA-WEB-20260821.md", "tc_count": 0}
+  ]
+}

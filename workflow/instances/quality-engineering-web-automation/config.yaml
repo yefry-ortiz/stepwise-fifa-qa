@@ -1,0 +1,20 @@
+capability: quality-engineering-web-automation
+version: 1.2.0
+parameters:
+  project_name: InsideFIFA-WEB
+  test_cases_path: ./artifacts/outputs/quality-engineering-planning/test-cases
+  test_strategy_path: ./artifacts/outputs/quality-engineering-planning/qa-test-strategy
+  application_url: https://inside.fifa.com/
+  input_folder: ./artifacts/inputs
+  output_folder: ./artifacts/outputs/quality-engineering-web-automation
+  existing_framework_path: ./artifacts/outputs/quality-engineering-web-automation/automation-code
+  analysis_output_path: automation-analysis
+  validated_test_cases_path: validated-test-cases
+  framework_architecture_path: framework-architecture
+  automation_plan_path: automation-plan
+  automation_code_path: automation-code
+  execution_report_path: test-execution-report.json
+  analysis_summary_path: qa-analysis-summary
+  criteria_base_path: ./criteria
+configuration:
+  capability_configured: true

@@ -1,0 +1,70 @@
+[
+  {
+    "execution_id": "a12d50eb-7cad-49a7-9b0c-14f5d9b0c4c7",
+    "step_id": "analyze-test-cases",
+    "version_sequence": 1,
+    "session_name": "Web-Automation-Session-1",
+    "capability_name": "quality-engineering-web-automation",
+    "started_at": "2026-08-21T21:26:16.088Z",
+    "completed_at": "2026-08-21T21:45:38.741Z",
+    "duration_seconds": 1163,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda",
+    "run_id": "1787347576088-c7n3pfaq",
+    "model": "anthropic/claude-sonnet-5",
+    "session_resume": {
+      "resumed": false,
+      "cold_reason": "first_run"
+    },
+    "parallel_delegation": {
+      "available": true,
+      "used": true,
+      "count": 12
+    },
+    "token_usage": {
+      "input_tokens": 252300,
+      "output_tokens": 104234,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 10984536
+    },
+    "items_spawned": 9,
+    "artifact_group_id": "fb277f20-f041-4922-8532-952e45550a7f",
+    "project_id": "InsideFifa-Test",
+    "organization_id": "Test-FIFA"
+  },
+  {
+    "execution_id": "fef995a7-49fa-41fb-9cbc-e31d540a0468",
+    "step_id": "analyze-test-cases",
+    "version_sequence": 2,
+    "session_name": "Web-Automation-Session-1",
+    "capability_name": "quality-engineering-web-automation",
+    "started_at": "2026-08-21T22:24:23.933Z",
+    "completed_at": "2026-08-21T22:28:10.084Z",
+    "duration_seconds": 226,
+    "status": "Success",
+    "request_type": "Iteration",
+    "executor": "coda",
+    "run_id": "1787351063933-cm2ibccl",
+    "model": "globant_dgx/GLM-4.6",
+    "session_resume": {
+      "resumed": false,
+      "cold_reason": "model_changed"
+    },
+    "parallel_delegation": {
+      "available": true,
+      "used": false,
+      "count": 0
+    },
+    "token_usage": {
+      "input_tokens": 980782,
+      "output_tokens": 4608,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0
+    },
+    "items_spawned": 9,
+    "artifact_group_id": "fb277f20-f041-4922-8532-952e45550a7f",
+    "project_id": "InsideFifa-Test",
+    "organization_id": "Test-FIFA"
+  }
+]

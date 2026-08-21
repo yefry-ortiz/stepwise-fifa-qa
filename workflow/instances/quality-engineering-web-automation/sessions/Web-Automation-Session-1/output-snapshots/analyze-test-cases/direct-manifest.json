@@ -1,0 +1,18 @@
+{
+  "project_root": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa",
+  "scope": [
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis"
+  ],
+  "files": {
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md": "37a26bdad85914e25a71f8f9c3c1685f86ad56053d3040527cd4a9d37943d0d9",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-02-quality-assessment.md": "14265cceb825c5ab7d776d1c8dbb2620158c5eda8be037834b7c2293067a2b8c",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-04-quality-assessment.md": "4c154ec21aecbc26a6dfb301b7e3a9ea8cb304da2dd5dcf8ac28e05ec0d4486b",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-06-quality-assessment.md": "7b6c20dd072c5d17626b8010bc2efaafedb7222b8a3e0557562b13cab3f078d2",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-01-quality-assessment.md": "bb8ad0c6558c96ac159ed9eed6cd2556b49058da5b9e01ccc5f7755dc28bf655",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-03-quality-assessment.md": "b61db4b1a29a213c357b6673bad4be68ac0de2d4122fabe460e2466091648f32",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-05-quality-assessment.md": "cc2656e07652d68c7d03aa455a22e6b3eb76c37b0b762bed925d5ace59d9ed95",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/quality-assessment/epic-07-quality-assessment.md": "4b88b62c352a73f4e7e308d4c38a14f8a537af4e13019fb77c9b31ef390e6c2d",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/_progress.json": "8a75874680c2a93c47d4210f06646e514cf433f32f74869743078d757f8f1b9e",
+    "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-AUDIT-ANALYSIS-INSIDEFIFA-WEB-20260821.md": "35a0ff730ebe746124fbd66ed40fe427ea77b67635ce095514e27e3c985563ad"
+  }
+}

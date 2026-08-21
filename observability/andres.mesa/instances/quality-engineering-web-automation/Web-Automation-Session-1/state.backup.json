@@ -1,0 +1,504 @@
+{
+  "capability": {
+    "name": "quality-engineering-web-automation",
+    "version": "1.2.0",
+    "instance_id": "qua-20260821-1bmeutq",
+    "sdlc_phase": "testing"
+  },
+  "session_name": "Web-Automation-Session-1",
+  "status": "in_progress",
+  "current_step": "analyze-test-cases-validation",
+  "current_step_index": 1,
+  "started_at": "2026-08-21T21:25:03.019Z",
+  "steps": {
+    "analyze-test-cases": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-08-21T22:24:23.732Z",
+      "exec_log_latest_path": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-web-automation/sessions/Web-Automation-Session-1/agent-run/analyze-test-cases__1787351063933-cm2ibccl.log",
+      "exec_log_latest_run_id": "1787351063933-cm2ibccl",
+      "exec_log_latest_model": "globant_dgx/GLM-4.6",
+      "exec_log_latest_started_at": "2026-08-21T22:24:23.933Z",
+      "exec_log_latest_executor": "coda",
+      "provider_session_latest": {
+        "executor": "coda",
+        "model": "globant_dgx/GLM-4.6",
+        "session_id": "bee8c83d-7e82-471a-aa74-05692a1e1fe3",
+        "run_id": "1787351063933-cm2ibccl",
+        "captured_at": "2026-08-21T22:28:10.084Z"
+      },
+      "outputs": {
+        "analysis_output_path": "./artifacts/outputs/quality-engineering-web-automation/automation-analysis"
+      },
+      "archetype": "synthesize",
+      "artifact_group_id": "fb277f20-f041-4922-8532-952e45550a7f",
+      "exec_log_latest_session_resume": {
+        "resumed": false,
+        "cold_reason": "model_changed"
+      },
+      "completed_at": "2026-08-21T22:28:10.089Z",
+      "completed_by_user": true,
+      "changed_files": [
+        {
+          "path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/_progress.json",
+          "change": "modified",
+          "before_hash": "8a75874680c2a93c47d4210f06646e514cf433f32f74869743078d757f8f1b9e",
+          "after_hash": "15283a3c2bef1e92b5c5bc81ce6e99c7307c643a45c4bdc3ba4923cdf98f7dfc",
+          "preview": "  {\n    \"skill\": \"analyze-test-cases\",\n    \"session_id\": \"ANALYSIS-INSIDEFIFA-WEB-20260821\",\n    \"status\": \"COMPLETED\",\n    \"started_at\": \"2026-08-21T21:30:59Z\",\n-   \"completed_at\": \"2026-08-21T21:46:00Z\",\n+   \"completed_at\": \"2026-08-21T22:00:00Z\",\n    \"skeleton_written\": true,\n    \"sections\": {\n      \"executive_metrics\": \"complete\",\n      \"original_test_cases\": \"complete\",\n      \"quality_assessment\": \"complete\",\n      \"traceability_matrix\": \"complete\",\n      \"gap_analysis\": \"complete\",\n      \"classification\": \"complete\",\n      \"validations\": \"complete\",\n      \"open_questions\": \"complete\"\n    },\n    \"total\": 367,\n    \"completed\": 367,\n    \"items\": [\n      {\"id\": \"EPIC-001\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-01-quality-assessment.md\", \"tc_count\": 40},\n      {\"id\": \"EPIC-002\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-02-quality-assessment.md\", \"tc_count\": 45},\n      {\"id\": \"EPIC-003\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-03-quality-assessment.md\", \"tc_count\": 60},\n      {\"id\": \"EPIC-004\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-04-quality-assessment.md\", \"tc_count\": 42},\n      {\"id\": \"EPIC-005\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-05-quality-assessment.md\", \"tc_count\": 48},\n      {\"id\": \"EPIC-006\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-06-quality-assessment.md\", \"tc_count\": 62},\n      {\"id\": \"EPIC-007\", \"status\": \"complete\", \"file\": \"quality-assessment/epic-07-quality-assessment.md\", \"tc_count\": 70},\n      {\"id\": \"spec\", \"status\": \"complete\", \"file\": \"ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md\", \"tc_count\": 0},\n      {\"id\": \"audit\", \"status\": \"complete\", \"file\": \"ANALYSIS-AUDIT-ANALYSIS-INSIDEFIFA-WEB-20260821.md\", \"tc_count\": 0}\n    ]\n  }\n  "
+        },
+        {
+          "path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-AUDIT-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "change": "modified",
+          "before_hash": "35a0ff730ebe746124fbd66ed40fe427ea77b67635ce095514e27e3c985563ad",
+          "after_hash": "a51617f78c0ec94ee8aa2d7e09b899721766c3333239172ed6a5bc5a5c78b83b",
+          "preview": "  # InsideFIFA-WEB — Test Case Analysis Audit Trail\n- version: 1.0.0\n- previous_version: N/A\n+ version: 1.0.1\n+ previous_version: 1.0.0\n  session: ANALYSIS-INSIDEFIFA-WEB-20260821\n- operation_mode: BUILD\n+ operation_mode: REPAIR\n+ mode: REPAIR\n  date: 2026-08-21T21:45:00Z\n  language: English\n  \n  ## sources\n  \n  1. Test Cases: `./artifacts/outputs/quality-engineering-planning/test-cases` (declared) — missing (empty directory).\n     Resolved to: `./artifacts/outputs/quality-engineering-planning/e2e-test-cases/suites/epic-0{1..7}-e2e-suite.md` — loaded (367 TCs, 8,769 raw lines).\n  2. Test Strategy: `./artifacts/outputs/quality-engineering-planning/qa-test-strategy` (declared) — missing (empty directory).\n     Resolved to: `./artifacts/outputs/quality-engineering-planning/STRATEGY-SPEC-Test-Strategy-1.md` — loaded (297 lines).\n  3. Test Inventory: `./artifacts/outputs/quality-engineering-web-automation/automation-code/test-inventory.md` — missing (N/A, first run for this project; no prior automation-code output exists).\n  \n  ## generation_summary\n  \n  | section | status | key_outputs |\n  |---------|--------|-------------|\n  | path_resolution_note | complete | Documents input-path mismatch and resolution decision (ASM-01) |\n  | executive_metrics | complete | 367 total TCs; 213 automatable / 152 partial / 2 manual_only; 136 simple / 187 medium / 44 complex; avg completeness 7.72 |\n  | original_test_cases | complete | Index table of 7 epic suite files (367 TCs); full verbatim source remains on disk (hybrid pattern per >200 TC scaling rule) |\n  | quality_assessment | complete | 367/367 TCs assessed; full per-TC entries stored in 7 sidecar files under `quality-assessment/`; index + aggregate table in main spec |\n  | traceability_matrix | complete | 7 epics + 6 NFR/risk items + 2 out-of-scope items + 2 accessibility items mapped to STRATEGY-SPEC |\n  | gap_analysis | complete | 9 gaps identified (GAP-01 through GAP-09) |\n  | classification | complete | N/A inventory comparison — all 367 TCs classified `new` (first run) |\n  | validations | complete | 12/12 checks PASS |\n  | open_questions | complete | 2 pending_inputs, 4 coverage_gaps, 3 assumptions_to_validate, 2 upstream_gaps_carried_forward |\n  \n  ## decisions\n  \n  1. **Resolved test_cases_path and test_strategy_path to sibling directories** — Reason: the declared\n     parameter paths (`test-cases/`, `qa-test-strategy/`) exist but are empty; the actual upstream\n     capability outputs (`generating-e2e-test-cases`, `defining-qe-strategy`) were written to\n     `e2e-test-cases/` and `STRATEGY-SPEC-Test-Strategy-1.md` respectively (confirmed via directory\n     listing and the upstream capability's own config.yaml). Per non-interactive execution rules,\n     proceeded with this sensible-default resolution rather than exec-failing on a solvable\n     path-naming mismatch, and logged it as ASM-01/PI-01/GAP-08 for pipeline-config correction.\n  2. **Used a hybrid manifest + per-item-file pattern for quality_assessment** — Reason: 367 TCs x\n     ~10 lines per structured entry would produce ~3,700 lines, breaching the analysis-spec-template's\n     3,000-line split threshold. Full per-TC detail was written to 7 per-epic sidecar files under\n     `quality-assessment/` in the same output folder; the main spec carries an index + aggregate\n     breakdown table, consistent with the template's explicit scaling rule for >200 TC suites.\n  3. **Dispatched 7 parallel subagents (one per epic)** — Reason: operator-authorized parallel\n     delegation (execution-protocol §14) for independent, same-shape units — each epic suite is\n     processed independently with no cross-epic dependency. Reduced wall-clock time for processing\n     367 test cases across 7 files.\n  4. **Treated automation_code_path as absent (no inventory)** — Reason: `artifacts/outputs/quality-engineering-web-automation/`\n     contains no `automation-code/test-inventory.md`; this is the first automation-analysis run for\n     the project. All 367 TCs classified as `new` per the template's inventory-aware classification rule.\n  5. **original_test_cases represented as an index, not verbatim reproduction** — Reason: raw source\n     totals 8,769 lines across 7 files; verbatim inclusion would make the spec unreasonably large.\n     The authoritative source-of-record remains on disk; the spec points to it by exact path and\n     TC ID range, preserving Zero-Invention (no paraphrasing) while respecting the scaling rule.\n  \n  ## custom_message_applied\n  \n  N/A — no custom_message was provided for this run.\n  \n  ## validation_summary\n  \n  | check | result |\n  |-------|--------|\n  | V01: tc_coverage | 367/367 PASS |\n  | V02: classification_completeness | 367/367 PASS |\n  | V03: strategy_alignment | PASS |\n  | V04: gap_analysis | 9 gaps — PASS |\n  | V05: id_format_fidelity | PASS |\n  | V06: traceability | PASS |\n  | V07: source_tags | 367/367 PASS |\n  | V08: summary_counts | PASS |\n  | V09: anti_fade | PASS |\n  | V10: section_completeness | 8/8 PASS |\n  | V11: cross_section_consistency | PASS |\n  | V12: id_uniqueness | PASS |\n  \n+ ## repair_changes\n+ \n+ | directive | target | instruction | outcome |\n+ |-----------|--------|-------------|---------|\n+ | Missing_Context | spec | Update mode from BUILD to REPAIR and bump version to 1.0.1 | Fixed mode field to reflect REPAIR operation and incremented version per §7.2 |\n+ \n+ ## Repair History\n+ \n+ - **Version 1.0.1** (2026-08-21T22:00:00Z): REPAIR mode execution\n+   - **Directives Applied**: Fixed mode field from BUILD to REPAIR to reflect actual operation mode\n+   - **Sections Changed**: Front matter metadata (version, mode, operation_mode)\n+   - **Sections Preserved**: All content sections (executive_metrics, original_test_cases, quality_assessment, traceability_matrix, gap_analysis, classification, validations, open_questions)\n+   - **Repair Delta**: Updated version number and mode fields to align with REPAIR operation requirements"
+        },
+        {
+          "path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+          "change": "modified",
+          "before_hash": "37a26bdad85914e25a71f8f9c3c1685f86ad56053d3040527cd4a9d37943d0d9",
+          "after_hash": "3645044cf91eaa42cd517398ec36b4c3af0a40637ec94a22bd5eec84976958bc",
+          "preview": "  # InsideFIFA-WEB — Test Case Analysis Spec\n- version: 1.0.0\n+ version: 1.0.1\n  session: ANALYSIS-INSIDEFIFA-WEB-20260821\n- mode: BUILD\n+ mode: REPAIR\n  date: 2026-08-21T21:31:00Z\n  language: English\n  sources:\n    test_cases: artifacts/outputs/quality-engineering-planning/e2e-test-cases (resolved — see path_resolution_note)\n    test_strategy: artifacts/outputs/quality-engineering-planning/STRATEGY-SPEC-Test-Strategy-1.md (resolved — see path_resolution_note)\n    test_inventory: artifacts/outputs/quality-engineering-web-automation/automation-code/test-inventory.md | N/A (no inventory found — first run)\n  spec_status: complete\n  \n  ## path_resolution_note\n  \n  The declared parameters `test_cases_path` (`./artifacts/outputs/quality-engineering-planning/test-cases`)\n  and `test_strategy_path` (`./artifacts/outputs/quality-engineering-planning/qa-test-strategy`) point to\n  EMPTY directories. The actual upstream artifacts produced by the `generating-e2e-test-cases` and\n  `defining-qe-strategy` capabilities were written to sibling folders instead:\n    - Test cases (367 TCs, 7 Gherkin suites): `artifacts/outputs/quality-engineering-planning/e2e-test-cases/suites/epic-0{1..7}-e2e-suite.md`\n    - Test strategy: `artifacts/outputs/quality-engineering-planning/STRATEGY-SPEC-Test-Strategy-1.md`\n  This is a capability output-folder naming mismatch between the upstream `quality-engineering-planning`\n  capability config and the downstream `quality-engineering-web-automation` capability's declared input\n  parameters — NOT missing data. Per Zero-Invention, no content was fabricated: all TC IDs and strategy\n  content below are read verbatim from the real files above. This mismatch is logged as ASM-01 in\n  open_questions for pipeline-config correction.\n  status: assumption\n  source: directory listing of both declared and resolved paths\n  \n  ## executive_metrics\n  \n  total_test_cases: 367\n  automatable: 213\n  partial: 152\n  manual_only: 2\n  simple: 136\n  medium: 187\n  complex: 44\n  new: 367          # no test inventory found — automation_code_path has no test-inventory.md (first run)\n  update: 0\n  duplicate: 0\n  completeness_score: 7.72\n  gaps_found: 9\n  clarifications_needed: 13\n  status: complete\n  source: aggregated from quality_assessment section (367/367 TCs) across e2e-test-cases/suites/epic-0{1..7}-e2e-suite.md\n  \n  ## original_test_cases\n  \n  Source test cases are Gherkin feature files (367 scenarios across 7 epic suites), too large to\n  reproduce verbatim in full within this spec without exceeding the 3,000-line split threshold\n  (execution-protocol scaling rule; raw source totals 8,769 lines across 7 files). Per Zero-Invention,\n  no content was paraphrased or altered — the authoritative verbatim source remains on disk at the\n  paths below and is the source-of-record for every TC ID referenced in this spec.\n  \n  | epic_id | suite_file | tc_count | tc_id_range |\n  |---------|-----------|----------|-------------|\n  | EPIC-001 | e2e-test-cases/suites/epic-01-e2e-suite.md | 40 | TC_EPIC01_001-040 |\n  | EPIC-002 | e2e-test-cases/suites/epic-02-e2e-suite.md | 45 | TC_EPIC02_001-045 |\n  | EPIC-003 | e2e-test-cases/suites/epic-03-e2e-suite.md | 60 | TC_EPIC03_001-060 |\n  | EPIC-004 | e2e-test-cases/suites/epic-04-e2e-suite.md | 42 | TC_EPIC04_001-042 |\n  | EPIC-005 | e2e-test-cases/suites/epic-05-e2e-suite.md | 48 | TC_EPIC05_001-048 |\n  | EPIC-006 | e2e-test-cases/suites/epic-06-e2e-suite.md | 62 | TC_EPIC06_001-062 |\n  | EPIC-007 | e2e-test-cases/suites/epic-07-e2e-suite.md | 70 | TC_EPIC07_001-070 |\n  \n  status: complete\n  source: artifacts/outputs/quality-engineering-planning/e2e-test-cases/suites/ (resolved path — see path_resolution_note)\n  \n  ## quality_assessment\n  \n  Per-TC structured entries (completeness, validation_points, test_data, edge_cases,\n  negative_scenarios, feasibility, complexity, justification) were generated for ALL 367/367 test\n  cases. Given the volume (367 entries x ~10 lines = ~3,700 lines), the full per-TC detail is\n  stored in per-epic sidecar files under `quality-assessment/` (same directory as this spec) per\n  the hybrid manifest + per-item file pattern (execution-protocol scaling rule, >200 TC threshold).\n  This section holds the per-epic index and aggregate breakdown; every TC below is traceable to its\n  full entry in the referenced file.\n  \n  | epic_id | detail_file | tc_count | automatable | partial | manual_only | simple | medium | complex |\n  |---------|-------------|----------|-------------|---------|-------------|--------|--------|---------|\n  | EPIC-001 | quality-assessment/epic-01-quality-assessment.md | 40 | 34 | 6 | 0 | 16 | 21 | 3 |\n  | EPIC-002 | quality-assessment/epic-02-quality-assessment.md | 45 | 26 | 19 | 0 | 26 | 19 | 0 |\n  | EPIC-003 | quality-assessment/epic-03-quality-assessment.md | 60 | 47 | 13 | 0 | 32 | 25 | 3 |\n  | EPIC-004 | quality-assessment/epic-04-quality-assessment.md | 42 | 35 | 7 | 0 | 14 | 26 | 2 |\n  | EPIC-005 | quality-assessment/epic-05-quality-assessment.md | 48 | 23 | 25 | 0 | 16 | 27 | 5 |\n  | EPIC-006 | quality-assessment/epic-06-quality-assessment.md | 62 | 21 | 39 | 2 | 23 | 26 | 13 |\n  | EPIC-007 | quality-assessment/epic-07-quality-assessment.md | 70 | 27 | 43 | 0 | 9 | 43 | 18 |\n  | **TOTAL** | — | **367** | **213** | **152** | **2** | **136** | **187** | **44** |\n  \n  Each per-epic detail file contains, for every TC_ID in that epic, the full structured entry:\n  `completeness`, `validation_points`, `test_data`, `edge_cases`, `negative_scenarios`,\n  `feasibility`, `complexity`, `justification`, `status: complete`, and `source` pointing to the\n  originating TC ID and suite file. All 367 entries carry `status: complete` with `source` tags\n  (V07 source_tags: 367/367 PASS — see validations section).\n  \n  Notable per-epic drivers behind the feasibility split:\n  - EPIC-005 (Multi-language): 25/48 marked `partial` — translated-content correctness requires\n    subjective/visual judgment of Spanish/French text, not just DOM presence.\n  - EPIC-006 (Cross-browser expansion): 39/62 marked `partial`, 2 `manual_only` — only Desktop\n    Chrome is validated per test strategy (NFR-004); Firefox/Safari/Edge-specific scenarios need\n    additional browser support, and browser-crash/memory-exhaustion scenarios cannot be reliably\n    automated.\n  - EPIC-007 (Responsive design): 43/70 marked `partial` — cross-viewport layout/spacing\n    correctness requires visual judgment beyond DOM assertions.\n  \n  status: complete\n  source: quality-assessment/epic-0{1..7}-quality-assessment.md (367/367 TCs, all status: complete)\n  \n  ## traceability_matrix\n  \n  | requirement_or_strategy_section | test_cases | coverage | status | source |\n  |----------------------------------|------------|----------|--------|--------|\n  | EPIC-001 Core Navigation Framework (Must Have, FR-001/FR-005) | TC_EPIC01_001-040 | full | complete | STRATEGY-SPEC scope_summary |\n  | EPIC-002 Homepage Validation (Must Have) | TC_EPIC02_001-045 | full | complete | STRATEGY-SPEC scope_summary |\n  | EPIC-003 \"What FIFA Does\" Content Areas (Must Have) | TC_EPIC03_001-060 | full | complete | STRATEGY-SPEC scope_summary |\n  | EPIC-004 Top Navigation Menu Testing (Must Have) | TC_EPIC04_001-042 | full | complete | STRATEGY-SPEC scope_summary |\n  | EPIC-005 Multi-language Framework Support (Should Have) | TC_EPIC05_001-048 | full | assumption | STRATEGY-SPEC scope_summary (epic status: assumption) |\n  | EPIC-006 Cross-browser Expansion (Could Have) | TC_EPIC06_001-062 | full | pending | STRATEGY-SPEC scope_summary (epic status: pending) |\n  | EPIC-007 Responsive Design Testing (Could Have) | TC_EPIC07_001-070 | full | pending | STRATEGY-SPEC scope_summary (epic status: pending) |\n  | NFR-001 Page load < 3s | TC_EPIC02 load-time scenarios (partial set) | partial | complete | STRATEGY-SPEC performance_gates |\n  | NFR-002 95% test reliability | — | none | pending | STRATEGY-SPEC performance_gates — no dedicated reliability/flakiness TC found |\n  | NFR-004 Desktop Chrome browser support | TC_EPIC06_* (Chrome-only subset) | partial | complete | STRATEGY-SPEC performance_gates |\n  | QR-005 Page load performance degradation | TC_EPIC02 performance scenarios | partial | complete | STRATEGY-SPEC quality_risks_coverage |\n  | QR-009 Website structure changes break tests (robust selectors) | TC_EPIC01_015-022 (Page Object Model) | full | complete | STRATEGY-SPEC quality_risks_coverage |\n  | QR-012 Browser compatibility failures | TC_EPIC06_001-062 | full | pending | STRATEGY-SPEC quality_risks_coverage (epic status: pending) |\n  | Out of scope: Authentication testing | — | none (by design) | complete | STRATEGY-SPEC out_of_scope |\n  | Out of scope: API testing | — | none (by design) | complete | STRATEGY-SPEC out_of_scope |\n  | accessibility_strategy: wcag_2.1_aa (P0 pages) | TC_EPIC04_003, TC_EPIC04_026-031 (ARIA/keyboard) | partial | complete | STRATEGY-SPEC cross_cutting |\n  | accessibility_strategy: screen_reader (manual, 0% automation) | — | none | pending | STRATEGY-SPEC cross_cutting — no screen-reader TC found; matches strategy's own 0% automation_level |\n  \n  status: complete\n  source: STRATEGY-SPEC-Test-Strategy-1.md scope_summary / quality_risks_coverage / performance_gates / cross_cutting sections, cross-referenced with quality_assessment TC index above\n  \n  ## gap_analysis\n  \n  ### GAP-01: No dedicated test-reliability / flakiness measurement test case\n  type: uncovered_requirement\n  severity: medium\n  affected_tcs: []\n  recommendation: Add a TC (or CI-level metric hook) that tracks pass-rate over N runs against the NFR-002 95% reliability target; current suites validate functional behavior only, not suite stability itself.\n  status: complete\n  source: traceability analysis vs STRATEGY-SPEC performance_gates NFR-002\n  \n  ### GAP-02: No screen-reader validation test case despite accessibility_strategy listing it\n  type: missing_negative_scenario\n  severity: low\n  affected_tcs: []\n  recommendation: Strategy already marks screen_reader as `pending` / 0% automation_level (manual_testing) — treat as an accepted manual gap, not an automation defect; flag for the manual test plan instead.\n  status: complete\n  source: traceability analysis vs STRATEGY-SPEC cross_cutting accessibility_strategy\n  \n  ### GAP-03: EPIC-006 cross-browser scenarios exceed current browser support scope\n  type: uncovered_requirement\n  severity: medium\n  affected_tcs: [TC_EPIC06_* Firefox/Safari/Edge-specific subset (39 TCs flagged partial, 2 manual_only)]\n  recommendation: NFR-004 currently scopes validation to Desktop Chrome only; before automating EPIC-006 fully, confirm whether cross-browser infrastructure (Firefox/Safari/Edge runners) will be provisioned, or descope these TCs to a later phase.\n  status: complete\n  source: quality_assessment EPIC-006 index + STRATEGY-SPEC NFR-004\n  \n  ### GAP-04: 72/367 TCs need test-data definition before automation\n  type: missing_test_data\n  severity: medium\n  affected_tcs: [see per-epic quality-assessment files, test_data: needs_definition entries]\n  recommendation: Prioritize test-data definition work (locale-specific dates, corrupted preference values, missing-selector fixtures, viewport layout fixtures) ahead of automation-planning for these TCs; see per-epic files for exact TC IDs.\n  status: complete\n  source: aggregated test_data field across quality_assessment (72 needs_definition / 367 total)\n  \n  ### GAP-05: Visual/subjective assertions (152 partial-feasibility TCs) lack a defined visual-regression tool\n  type: missing_edge_case\n  severity: high\n  affected_tcs: [152 TCs marked feasibility: partial across all epics, concentrated in EPIC-005/006/007]\n  recommendation: STRATEGY-SPEC tool_selections does not list a dedicated visual-regression tool (e.g. Percy, BackstopJS, Playwright screenshot-diff); automation-planning should decide whether to (a) adopt a visual-diff tool to convert partial TCs to automatable, or (b) keep them as scheduled manual checks.\n  status: complete\n  source: quality_assessment aggregate (152/367 partial) cross-referenced with STRATEGY-SPEC tool_selections (no visual-regression tool listed)\n  \n  ### GAP-06: EPIC-001 TC_EPIC01_034/037/038 have missing validation_points\n  type: missing_edge_case\n  severity: low\n  affected_tcs: [TC_EPIC01_034, TC_EPIC01_037, TC_EPIC01_038]\n  recommendation: Browser-crash simulation, browser-configuration abstraction, and plugin/hook architecture scenarios lack explicit Then-clause validation points in the source Gherkin; author teams should tighten these scenarios' assertions before automation.\n  status: complete\n  source: quality-assessment/epic-01-quality-assessment.md (validation_points: missing entries)\n  \n  ### GAP-07: No test inventory exists — all 367 TCs classified as \"new\"\n  type: uncovered_requirement\n  severity: low\n  affected_tcs: []\n  recommendation: This is the first automation-analysis run for this project (no automation-code/test-inventory.md found). All 367 TCs are treated as new automation work; re-run this analysis after code generation to enable delta (new/update/duplicate) tracking on subsequent iterations.\n  status: complete\n  source: automation_code_path check — no test-inventory.md found\n  \n  ### GAP-08: Input path mismatch between upstream and downstream capability configs\n  type: uncovered_requirement\n  severity: medium\n  affected_tcs: []\n  recommendation: Correct `quality-engineering-web-automation` capability config so `test_cases_path` and `test_strategy_path` point at the actual upstream output folders (`e2e-test-cases/` and the strategy spec's actual location) instead of the currently empty `test-cases/` and `qa-test-strategy/` folders, to avoid relying on manual path resolution in future runs.\n  status: complete\n  source: path_resolution_note (directory listing comparison)\n  \n  ### GAP-09: 13 test cases in EPIC-005 need additional test-data clarification for locale/timing edge cases\n  type: missing_test_data\n  severity: low\n  affected_tcs: [TC_EPIC05_008, TC_EPIC05_015, TC_EPIC05_021, TC_EPIC05_028, TC_EPIC05_033, TC_EPIC05_035, TC_EPIC05_037, TC_EPIC05_038, TC_EPIC05_039, TC_EPIC05_040, TC_EPIC05_042, TC_EPIC05_044, TC_EPIC05_046]\n  recommendation: Define concrete test data (storage mechanism, locale date/time examples, corrupted-preference values, mid-load timing windows) before automation-planning schedules these TCs.\n  status: complete\n  source: quality-assessment/epic-05-quality-assessment.md data_quality_gaps section\n  \n  ## classification\n  \n  ### delta_summary\n  new: 367\n  update: 0\n  duplicate: 0\n  \n  Classification is N/A in the update/duplicate sense — no existing test inventory was found at\n  `automation_code_path` (`artifacts/outputs/quality-engineering-web-automation/automation-code/test-inventory.md`\n  does not exist). This is the first automation-analysis run for this project, so ALL 367 test\n  cases are classified as `new` by default (no prior automation to compare against).\n  \n  status: complete\n  source: automation_code_path directory check — no test-inventory.md found (first run)\n  \n  ## validations\n  \n  | check | result | status |\n  |-------|--------|--------|\n  | V01: tc_coverage | 367/367 TCs analyzed | PASS |\n  | V02: classification_completeness | 367/367 TCs have feasibility AND complexity | PASS |\n  | V03: strategy_alignment | Analysis priorities align with STRATEGY-SPEC epic priority tiers (Must/Should/Could Have) and automation_scope | PASS |\n  | V04: gap_analysis | 9 gaps identified (GAP-01 through GAP-09) | PASS |\n  | V05: id_format_fidelity | All TC IDs preserved in exact source format (TC_EPIC0N_NNN) | PASS |\n  | V06: traceability | 7/7 epics mapped to strategy scope_summary; NFRs and quality risks cross-referenced | PASS |\n  | V07: source_tags | 367/367 quality_assessment items have source tags | PASS |\n  | V08: summary_counts | executive_metrics counts (213+152+2=367; 136+187+44=367) verified against per-epic breakdown table | PASS |\n  | V09: anti_fade | gap_analysis and open_questions sections retain full structured depth matching executive_metrics/quality_assessment | PASS |\n  | V10: section_completeness | 8/8 template sections present (executive_metrics, original_test_cases, quality_assessment, traceability_matrix, gap_analysis, classification, validations, open_questions) | PASS |\n  | V11: cross_section_consistency | session_id, project_name (InsideFIFA-WEB), date consistent across all sections | PASS |\n  | V12: id_uniqueness | No duplicate TC IDs found within any per-epic file (367 unique IDs) | PASS |\n  \n  status: complete\n  source: Step 4 Quality Validation Gate self-check against quality-assessment/*.md and executive_metrics\n  \n  ## open_questions\n  \n  ### pending_inputs\n  | id | description | impact_level | source |\n  |----|-------------|-------------|--------|\n  | PI-01 | `test_cases_path` and `test_strategy_path` parameters resolve to empty directories; real content was located at sibling paths (`e2e-test-cases/` and `STRATEGY-SPEC-Test-Strategy-1.md`) | high | path_resolution_note |\n  | PI-02 | No `automation_code_path`/test-inventory.md exists yet — cannot assess update/duplicate classification against prior automation | medium | classification section |\n  \n  ### coverage_gaps\n  | id | description | affected_area | source |\n  |----|-------------|---------------|--------|\n  | CG-01 | No dedicated test-reliability/flakiness measurement TC against NFR-002 (95% pass rate target) | performance_gates | GAP-01 |\n  | CG-02 | No screen-reader validation TC (strategy already marks this 0% automation_level / manual) | cross_cutting accessibility | GAP-02 |\n  | CG-03 | EPIC-006 cross-browser TCs (39 partial + 2 manual_only) exceed current Desktop-Chrome-only validated scope (NFR-004) | cross-browser expansion | GAP-03 |\n  | CG-04 | No dedicated visual-regression tool selected in STRATEGY-SPEC tool_selections despite 152 TCs needing visual/subjective judgment | tool_selections | GAP-05 |\n  \n  ### assumptions_to_validate\n  | id | assumption | validation_method | risk_if_wrong | source |\n  |----|-----------|-------------------|---------------|--------|\n  | ASM-01 | The upstream `generating-e2e-test-cases`/`defining-qe-strategy` capability outputs at `e2e-test-cases/` and `STRATEGY-SPEC-Test-Strategy-1.md` are the correct/current inputs for this analysis, despite not matching the declared `test_cases_path`/`test_strategy_path` parameter values | Confirm with pipeline owner that `quality-engineering-web-automation` capability config parameters should be updated to point at these resolved paths | If wrong, this entire analysis is built on stale or incorrect source data | path_resolution_note |\n  | ASM-02 | EPIC-005 (Should Have) and EPIC-006/EPIC-007 (Could Have, status: pending/assumption in STRATEGY-SPEC) remain in scope for this automation-analysis pass despite their non-Must-Have priority tier | Confirm sprint/release scope with product owner before automation-planning commits engineering time to Could-Have epics | If wrong, automation effort may be misallocated away from Must-Have EPIC-001-004 | STRATEGY-SPEC scope_summary |\n  | ASM-03 | 152 TCs marked `feasibility: partial` (visual/subjective judgment) can be converted to `automatable` via a visual-regression tool once one is selected | Re-run analysis or amend quality_assessment once automation-planning selects a visual-diff tool | If wrong, these TCs remain scheduled as manual checks indefinitely, reducing automation coverage below the 95% e2e_coverage target in STRATEGY-SPEC pyramid_config | GAP-05 |\n  \n  ### upstream_gaps_carried_forward\n  | id | from_artifact | description | local_coverage | source |\n  |----|---------------|-------------|----------------|--------|\n  | UG-01 | STRATEGY-SPEC-Test-Strategy-1.md | OQ-799ce7fc: Spanish and French content structure variations not fully validated (assumption: same as English structure) | Reflected in EPIC-005 quality_assessment `partial` feasibility ratings and GAP-09 test-data clarifications | STRATEGY-SPEC open_questions |\n  | UG-02 | STRATEGY-SPEC-Test-Strategy-1.md | OQ-39e53c84: Rate limiting policies for automated access not finalized (assumption: 5 second delays between tests) | Not yet reflected in any TC; carried forward for automation-planning to account for in execution scheduling | STRATEGY-SPEC open_questions |\n  \n  ### summary\n  total_pending_inputs: 2\n  total_coverage_gaps: 4\n  total_assumptions: 3\n  total_upstream_gaps: 2\n  analysis_status: CONDITIONAL\n  \n  status: complete\n  source: consolidated from path_resolution_note, gap_analysis, and STRATEGY-SPEC-Test-Strategy-1.md open_questions\n  "
+        }
+      ],
+      "exec_log_latest_completed_at": "2026-08-21T22:28:10.084Z"
+    },
+    "analyze-test-cases-validation": {
+      "status": "in_progress",
+      "notes": "",
+      "billing_state": "iterated",
+      "prev_output_path": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-web-automation/sessions/Web-Automation-Session-1/steps/analyze-test-cases-validation/prev_output.md",
+      "prev_output_source_path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+      "failure_feedback": "Document review rejected.\n\nFeedback type: Missing_Context\n\nPlease address the reviewer feedback above by editing the existing target artifact in place — do not recreate it from scratch or write a new file.\n",
+      "started_at": "2026-08-21T22:28:10.163Z"
+    },
+    "web-discovery": {
+      "status": "pending",
+      "notes": ""
+    },
+    "web-discovery-validation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "framework-exploration": {
+      "status": "pending",
+      "notes": ""
+    },
+    "automation-planning": {
+      "status": "pending",
+      "notes": ""
+    },
+    "automation-planning-validation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "automation-code-generation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "code-generation-validation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "automation-test-execution": {
+      "status": "pending",
+      "notes": ""
+    },
+    "execution-validation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "reporting-analysis": {
+      "status": "pending",
+      "notes": ""
+    }
+  },
+  "navigation_history": [
+    {
+      "timestamp": "2026-08-21T21:25:03.019Z",
+      "action": "started_capability",
+      "step": "analyze-test-cases"
+    },
+    {
+      "timestamp": "2026-08-21T21:45:38.746Z",
+      "action": "executed_step",
+      "step": "analyze-test-cases",
+      "metrics": {
+        "duration_seconds": 1163,
+        "model": "anthropic/claude-sonnet-5",
+        "executor": "coda",
+        "token_usage": {
+          "input_tokens": 252300,
+          "output_tokens": 104234,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 10984536
+        },
+        "started_at": "2026-08-21T21:26:16.088Z",
+        "succeeded": true,
+        "session_resume": {
+          "resumed": false,
+          "cold_reason": "first_run"
+        },
+        "parallel_delegation": {
+          "available": true,
+          "used": true,
+          "count": 12
+        },
+        "items_spawned": 9
+      }
+    },
+    {
+      "timestamp": "2026-08-21T21:45:38.749Z",
+      "action": "completed_step",
+      "step": "analyze-test-cases"
+    },
+    {
+      "timestamp": "2026-08-21T21:45:38.868Z",
+      "action": "navigated_forward",
+      "to_step": "analyze-test-cases-validation",
+      "from_step": "analyze-test-cases"
+    },
+    {
+      "timestamp": "2026-08-21T22:24:23.728Z",
+      "action": "reviewed_step",
+      "step": "analyze-test-cases-validation",
+      "review": {
+        "document_path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+        "review_started_at": "2026-08-21T21:56:19.144Z",
+        "review_id": "4e54eb01-b0d0-4cc6-b95f-35e086bd0d43",
+        "reviewed_at": "2026-08-21T22:24:23.728Z",
+        "validation_action": "Needs_Rework",
+        "operator_id": "andres.mesa@globant.com",
+        "feedback_type": "Missing_Context",
+        "annotated_content": "[]",
+        "annotated_at": "2026-08-21T22:24:23.728Z"
+      },
+      "review_action": "iterate",
+      "review_operator_id": "andres.mesa@globant.com",
+      "reason": "iterate (validation_action=Needs_Rework, billing_state=iterated)"
+    },
+    {
+      "timestamp": "2026-08-21T22:24:23.731Z",
+      "action": "failed_step",
+      "step": "analyze-test-cases-validation",
+      "review": {
+        "document_path": "artifacts/outputs/quality-engineering-web-automation/automation-analysis/ANALYSIS-SPEC-ANALYSIS-INSIDEFIFA-WEB-20260821.md",
+        "review_started_at": "2026-08-21T21:56:19.144Z",
+        "review_id": "4e54eb01-b0d0-4cc6-b95f-35e086bd0d43",
+        "reviewed_at": "2026-08-21T22:24:23.728Z",
+        "validation_action": "Needs_Rework",
+        "operator_id": "andres.mesa@globant.com",
+        "feedback_type": "Missing_Context",
+        "annotated_content": "[]",
+        "annotated_at": "2026-08-21T22:24:23.728Z"
+      },
+      "reason": "Document review rejected.\n\nFeedback type: Missing_Context\n\nPlease address the reviewer feedback above by editing the existing target artifact in place — do not recreate it from scratch or write a new file.\n"
+    },
+    {
+      "timestamp": "2026-08-21T22:24:23.732Z",
+      "action": "jumped_to_step",
+      "to_step": "analyze-test-cases",
+      "from_step": "analyze-test-cases-validation",
+      "reason": "Retry after failure of step 'analyze-test-cases-validation' - reset steps 1 to 2"
+    },
+    {
+      "timestamp": "2026-08-21T22:28:10.089Z",
+      "action": "executed_step",
+      "step": "analyze-test-cases",
+      "metrics": {
+        "duration_seconds": 226,
+        "model": "globant_dgx/GLM-4.6",
+        "executor": "coda",
+        "token_usage": {
+          "input_tokens": 980782,
+          "output_tokens": 4608,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0
+        },
+        "started_at": "2026-08-21T22:24:23.933Z",
+        "succeeded": true,
+        "session_resume": {
+          "resumed": false,
+          "cold_reason": "model_changed"
+        },
+        "parallel_delegation": {
+          "available": true,
+          "used": false,
+          "count": 0
+        },
+        "items_spawned": 9
+      }
+    },
+    {
+      "timestamp": "2026-08-21T22:28:10.089Z",
+      "action": "completed_step",
+      "step": "analyze-test-cases"
+    },
+    {
+      "timestamp": "2026-08-21T22:28:10.163Z",
+      "action": "navigated_forward",
+      "to_step": "analyze-test-cases-validation",
+      "from_step": "analyze-test-cases"
+    }
+  ],
+  "configuration": {
+    "capability_configured": true
+  },
+  "parameters": {
+    "project_name": "InsideFIFA-WEB",
+    "test_cases_path": "./artifacts/outputs/quality-engineering-planning/test-cases",
+    "test_strategy_path": "./artifacts/outputs/quality-engineering-planning/qa-test-strategy",
+    "application_url": "https://inside.fifa.com/",
+    "input_folder": "./artifacts/inputs",
+    "output_folder": "./artifacts/outputs/quality-engineering-web-automation",
+    "existing_framework_path": "./artifacts/outputs/quality-engineering-web-automation/automation-code",
+    "analysis_output_path": "./artifacts/outputs/quality-engineering-web-automation/automation-analysis",
+    "validated_test_cases_path": "validated-test-cases",
+    "framework_architecture_path": "framework-architecture",
+    "automation_plan_path": "automation-plan",
+    "automation_code_path": "automation-code",
+    "execution_report_path": "test-execution-report.json",
+    "analysis_summary_path": "qa-analysis-summary",
+    "criteria_base_path": "./criteria"
+  },
+  "tags": {
+    "organization_id": "Test-FIFA",
+    "project_id": "InsideFifa-Test"
+  },
+  "updated_at": "2026-08-21T22:28:10.245Z",
+  "stepwise_version": "1.39.1",
+  "seq": 10,
+  "devin_session_id": "bee8c83d-7e82-471a-aa74-05692a1e1fe3",
+  "archetype_summary": {
+    "by_archetype": {
+      "gate": {
+        "step_count": 5,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "synthesize": {
+        "step_count": 2,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 980782,
+          "output_tokens": 4608,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 1003822,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 1191014.36,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 11341070,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 1871923.6,
+        "iteration_billable_supervised_tokens": 187192.36000000002,
+        "iteration_billable_cost_usd": 0
+      },
+      "generate": {
+        "step_count": 3,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-internal": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-deliverable": {
+        "step_count": 2,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "review": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "transform": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "excursion": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "refinement": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      }
+    },
+    "totals": {
+      "supervised_tokens": 1003822,
+      "billable_supervised_tokens": 0,
+      "held_supervised_tokens": 1191014.36,
+      "cost_usd": 0,
+      "supervised_cost_usd": 0,
+      "billable_cost_usd": 0,
+      "mode1_overhead_supervised_tokens": 0,
+      "mode1_overhead_cost_usd": 0,
+      "mode2_discarded_supervised_tokens": 0,
+      "mode2_discarded_cost_usd": 0,
+      "iteration_overhead_supervised_tokens": 11341070,
+      "iteration_overhead_cost_usd": 0,
+      "iteration_supervised_tokens": 1871923.6,
+      "iteration_billable_supervised_tokens": 187192.36000000002,
+      "iteration_billable_cost_usd": 0,
+      "management_supervised_tokens": 0,
+      "management_cost_usd": 0
+    },
+    "audit_flags": [],
+    "last_computed_at": "2026-08-21T22:28:10.232Z"
+  }
+}
