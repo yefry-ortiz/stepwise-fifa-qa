@@ -1,0 +1,516 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-21T01:00:10.829Z",
+  "project_id": "path:default",
+  "questions": [
+    {
+      "key": "349bf559-9f38-5e47-9a8d-93efff3c0073",
+      "local_ids": [
+        "OQ-001"
+      ],
+      "question": "When will ADRs be available for enhanced risk assessment?",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "answered",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.144Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/inputs/documentation/adrs/ADR-SPEC.md",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T00:55:42.048Z",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-planning",
+            "session": "Test-Strategy-1",
+            "step_id": "test-master-plan"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md"
+        ]
+      },
+      "created_at": "2026-08-21T00:45:34.144Z",
+      "updated_at": "2026-08-21T00:55:42.048Z"
+    },
+    {
+      "key": "820d235a-b254-5e43-bfc7-f1ebea8a846b",
+      "local_ids": [
+        "OQ-002"
+      ],
+      "question": "What is the target CI/CD platform for integration?",
+      "blocking": true,
+      "blocking_override": null,
+      "blocking_asserted_by": "scraped",
+      "assumption_if_unanswered": "It will be Github Actions",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "waived",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.144Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "It will be Github Actions",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T00:53:12.685Z",
+        "contradicts_assumption": false
+      },
+      "impact": {
+        "stale_steps": [],
+        "stale_artifacts": [],
+        "resolved_at": "2026-08-21T00:53:12.685Z"
+      },
+      "created_at": "2026-08-21T00:45:34.144Z",
+      "updated_at": "2026-08-21T00:53:12.685Z"
+    },
+    {
+      "key": "e3799d61-3727-5996-bc08-c74fe9f72085",
+      "local_ids": [
+        "OQ-003"
+      ],
+      "question": "Are there specific browser versions required for production?",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "answered",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.144Z",
+          "source": "scraped"
+        }
+      ],
+      "answer": {
+        "value": "NO",
+        "answered_by": "operator",
+        "answered_at": "2026-08-21T00:55:53.600Z",
+        "contradicts_assumption": true
+      },
+      "impact": {
+        "stale_steps": [
+          {
+            "capability": "quality-engineering-planning",
+            "session": "Test-Strategy-1",
+            "step_id": "test-master-plan"
+          }
+        ],
+        "stale_artifacts": [
+          "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md"
+        ]
+      },
+      "created_at": "2026-08-21T00:45:34.144Z",
+      "updated_at": "2026-08-21T00:55:53.600Z"
+    },
+    {
+      "key": "55e3fe9d-5e85-5003-a6b8-91d2f62add89",
+      "local_ids": [
+        "OQ-004"
+      ],
+      "question": "What is the schedule for multi-language content deployment?",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "Simultaneous deployment",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.144Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.144Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "2c7c254a-5227-5b56-b6da-713aa4ef3d6c",
+      "local_ids": [
+        "OQ-005"
+      ],
+      "question": "Are there specific performance monitoring tools required?",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "Playwright performance APIs",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "7f3c5445-48a9-52ce-a36c-11605b23276f",
+      "local_ids": [
+        "OQ-006"
+      ],
+      "question": "What is the expected test execution time budget for CI?",
+      "blocking": true,
+      "blocking_override": null,
+      "blocking_asserted_by": "scraped",
+      "assumption_if_unanswered": "10 minute total budget",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.827Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T01:00:10.827Z"
+    },
+    {
+      "key": "818d63b2-228c-5981-8190-3435424a88cd",
+      "local_ids": [
+        "OQ-007"
+      ],
+      "question": "Are there specific accessibility standards required (WCAG level)?",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "WCAG 2.1 AA",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "5f59cdb2-c6a5-53a2-a29d-1657c0041a88",
+      "local_ids": [
+        "OQ-008"
+      ],
+      "question": "What is the retention policy for test artifacts and reports?",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "30 days retention",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "db507a4e-a4c6-5741-824f-67d7c2eb13d6",
+      "local_ids": [],
+      "question": "Blocking Questions (2): OQ-002, OQ-006",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T00:45:34.145Z"
+    },
+    {
+      "key": "87254f96-d664-5976-8443-e51a0b98feaa",
+      "local_ids": [],
+      "question": "High Impact Questions (3): OQ-002, OQ-004, OQ-006",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T00:45:34.145Z"
+    },
+    {
+      "key": "ded770ce-3fa5-57f5-a31f-5cb263d461c0",
+      "local_ids": [],
+      "question": "Stakeholder Actions Required: All questions require stakeholder input",
+      "blocking": false,
+      "blocking_override": null,
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-Test-Strategy-1.md",
+          "raised_at": "2026-08-21T00:45:34.145Z",
+          "source": "scraped"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.145Z",
+      "updated_at": "2026-08-21T00:45:34.145Z"
+    },
+    {
+      "key": "07f2c73f-a311-50b3-b1e2-3686fd84ebcb",
+      "local_ids": [],
+      "question": "Production-like test data availability",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "Use anonymized data",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-insidefifa-web-20250821.md",
+          "raised_at": "2026-08-21T00:45:34.161Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.161Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "39e53c84-8704-5e17-b3c2-6e8ef5229c5e",
+      "local_ids": [],
+      "question": "Rate limiting policies for automated access",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "5 second delays between tests",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-insidefifa-web-20250821.md",
+          "raised_at": "2026-08-21T00:45:34.161Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.161Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "8f86a0ab-ad6d-5e19-92a6-5eada1bce0f1",
+      "local_ids": [],
+      "question": "Content update frequency and impact on tests",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "Weekly validation",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-insidefifa-web-20250821.md",
+          "raised_at": "2026-08-21T00:45:34.161Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.161Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "799ce7fc-e8d5-596d-8a67-242b8b80998b",
+      "local_ids": [],
+      "question": "Spanish and French content structure variations",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "Same as English structure",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-insidefifa-web-20250821.md",
+          "raised_at": "2026-08-21T00:45:34.161Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.161Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    },
+    {
+      "key": "73636176-2724-50fc-a3be-7cc614169e0e",
+      "local_ids": [],
+      "question": "CI/CD pipeline integration requirements",
+      "blocking": false,
+      "blocking_override": null,
+      "assumption_if_unanswered": "GitHub Actions integration",
+      "answer_shape": "free_text",
+      "audience": "internal",
+      "status": "open",
+      "occurrences": [
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-master-plan",
+          "artifact_ref": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-SPEC-insidefifa-web-20250821.md",
+          "raised_at": "2026-08-21T00:45:34.161Z",
+          "source": "scraped"
+        },
+        {
+          "capability": "quality-engineering-planning",
+          "session": "Test-Strategy-1",
+          "step_id": "test-strategy",
+          "run_id": "1787273847186-cdunjcw1",
+          "raised_at": "2026-08-21T01:00:10.828Z",
+          "source": "sidecar"
+        }
+      ],
+      "created_at": "2026-08-21T00:45:34.161Z",
+      "updated_at": "2026-08-21T01:00:10.828Z"
+    }
+  ],
+  "aliases": {}
+}

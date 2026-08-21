@@ -1,0 +1,483 @@
+{
+  "capability": {
+    "name": "quality-engineering-planning",
+    "version": "1.0.0",
+    "instance_id": "qua-20260821-1fxerhl",
+    "sdlc_phase": "testing"
+  },
+  "session_name": "Test-Strategy-1",
+  "status": "in_progress",
+  "current_step": "test-strategy-validation",
+  "current_step_index": 3,
+  "started_at": "2026-08-21T00:41:06.281Z",
+  "steps": {
+    "test-master-plan": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-08-21T00:41:06.281Z",
+      "exec_log_latest_path": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/agent-run/test-master-plan__1787272908285-18rq9bpb.log",
+      "exec_log_latest_run_id": "1787272908285-18rq9bpb",
+      "exec_log_latest_model": "globant_dgx/GLM-4.6",
+      "exec_log_latest_started_at": "2026-08-21T00:41:48.285Z",
+      "exec_log_latest_executor": "coda",
+      "exec_log_latest_session_resume": {
+        "resumed": false,
+        "cold_reason": "first_run"
+      },
+      "provider_session_latest": {
+        "executor": "coda",
+        "model": "globant_dgx/GLM-4.6",
+        "session_id": "768603a0-4c5a-4c10-a88c-4a788e3022c3",
+        "run_id": "1787272908285-18rq9bpb",
+        "captured_at": "2026-08-21T00:45:34.094Z"
+      },
+      "completed_at": "2026-08-21T00:45:34.103Z",
+      "completed_by_user": true,
+      "outputs": {
+        "master_test_plan_path": "./artifacts/outputs/quality-engineering-planning"
+      },
+      "archetype": "synthesize",
+      "artifact_group_id": "af84d100-737f-4533-85fc-1905d041ae77",
+      "exec_log_latest_completed_at": "2026-08-21T00:45:34.094Z"
+    },
+    "test-master-plan-validation": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-08-21T00:45:34.177Z",
+      "review": {
+        "document_path": "./artifacts/outputs/quality-engineering-planning",
+        "review_started_at": "2026-08-21T00:53:43.186Z",
+        "review_id": "2c55ef79-917f-4ba1-90a5-e2210e356bcd",
+        "operator_id": "andres.mesa@globant.com",
+        "reviewed_at": "2026-08-21T00:57:10.222Z",
+        "validation_action": "Approved"
+      },
+      "approved_artifacts": [
+        "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/artifacts/outputs/quality-engineering-planning/MTP-AUDIT-insidefifa-web-20250821.md"
+      ],
+      "billing_state": "approved",
+      "completed_at": "2026-08-21T00:57:10.222Z",
+      "completed_by_user": true,
+      "outputs": {},
+      "archetype": "gate"
+    },
+    "test-strategy": {
+      "status": "completed",
+      "notes": "",
+      "started_at": "2026-08-21T00:57:10.225Z",
+      "exec_log_latest_path": "/Users/andres.mesa/_dev/GLB/stepwise-fifa-qa/workflow/instances/quality-engineering-planning/sessions/Test-Strategy-1/agent-run/test-strategy__1787273847186-cdunjcw1.log",
+      "exec_log_latest_run_id": "1787273847186-cdunjcw1",
+      "exec_log_latest_model": "globant_dgx/GLM-4.6",
+      "exec_log_latest_started_at": "2026-08-21T00:57:27.186Z",
+      "exec_log_latest_executor": "coda",
+      "exec_log_latest_session_resume": {
+        "resumed": false,
+        "cold_reason": "first_run"
+      },
+      "provider_session_latest": {
+        "executor": "coda",
+        "model": "globant_dgx/GLM-4.6",
+        "session_id": "16b7e430-4b86-4863-a6ee-2c95a1d39101",
+        "run_id": "1787273847186-cdunjcw1",
+        "captured_at": "2026-08-21T01:00:10.820Z"
+      },
+      "completed_at": "2026-08-21T01:00:10.857Z",
+      "completed_by_user": true,
+      "outputs": {
+        "test_strategy_path": "./artifacts/outputs/quality-engineering-planning/STRATEGY-SPEC-Test-Strategy-1.md"
+      },
+      "archetype": "synthesize",
+      "artifact_group_id": "fb109bbe-7918-4672-8f52-d3f4fbf62ffc",
+      "exec_log_latest_completed_at": "2026-08-21T01:00:10.820Z"
+    },
+    "test-strategy-validation": {
+      "status": "in_progress",
+      "notes": "",
+      "started_at": "2026-08-21T01:00:10.868Z"
+    },
+    "e2e-test-cases-generation": {
+      "status": "pending",
+      "notes": ""
+    },
+    "e2e-test-cases-generation-validation": {
+      "status": "pending",
+      "notes": ""
+    }
+  },
+  "navigation_history": [
+    {
+      "timestamp": "2026-08-21T00:41:06.281Z",
+      "action": "started_capability",
+      "step": "test-master-plan"
+    },
+    {
+      "timestamp": "2026-08-21T00:45:34.100Z",
+      "action": "executed_step",
+      "step": "test-master-plan",
+      "metrics": {
+        "duration_seconds": 226,
+        "model": "globant_dgx/GLM-4.6",
+        "executor": "coda",
+        "model_tier": "orchestrator",
+        "token_usage": {
+          "input_tokens": 1541236,
+          "output_tokens": 8658,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0
+        },
+        "started_at": "2026-08-21T00:41:48.285Z",
+        "succeeded": true,
+        "session_resume": {
+          "resumed": false,
+          "cold_reason": "first_run"
+        },
+        "parallel_delegation": {
+          "available": true,
+          "used": false,
+          "count": 0
+        },
+        "items_spawned": 2
+      }
+    },
+    {
+      "timestamp": "2026-08-21T00:45:34.103Z",
+      "action": "completed_step",
+      "step": "test-master-plan"
+    },
+    {
+      "timestamp": "2026-08-21T00:45:34.177Z",
+      "action": "navigated_forward",
+      "to_step": "test-master-plan-validation",
+      "from_step": "test-master-plan"
+    },
+    {
+      "timestamp": "2026-08-21T00:57:10.222Z",
+      "action": "reviewed_step",
+      "step": "test-master-plan-validation",
+      "review": {
+        "document_path": "./artifacts/outputs/quality-engineering-planning",
+        "review_started_at": "2026-08-21T00:53:43.186Z",
+        "review_id": "2c55ef79-917f-4ba1-90a5-e2210e356bcd",
+        "operator_id": "andres.mesa@globant.com",
+        "reviewed_at": "2026-08-21T00:57:10.222Z",
+        "validation_action": "Approved"
+      },
+      "review_action": "approve",
+      "review_operator_id": "andres.mesa@globant.com",
+      "reason": "approve (validation_action=Approved, billing_state=approved)"
+    },
+    {
+      "timestamp": "2026-08-21T00:57:10.222Z",
+      "action": "completed_step",
+      "step": "test-master-plan-validation",
+      "review": {
+        "document_path": "./artifacts/outputs/quality-engineering-planning",
+        "review_started_at": "2026-08-21T00:53:43.186Z",
+        "review_id": "2c55ef79-917f-4ba1-90a5-e2210e356bcd",
+        "operator_id": "andres.mesa@globant.com",
+        "reviewed_at": "2026-08-21T00:57:10.222Z",
+        "validation_action": "Approved"
+      }
+    },
+    {
+      "timestamp": "2026-08-21T01:00:10.857Z",
+      "action": "executed_step",
+      "step": "test-strategy",
+      "metrics": {
+        "duration_seconds": 164,
+        "model": "globant_dgx/GLM-4.6",
+        "executor": "coda",
+        "model_tier": "orchestrator",
+        "token_usage": {
+          "input_tokens": 1048218,
+          "output_tokens": 7424,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0
+        },
+        "started_at": "2026-08-21T00:57:27.186Z",
+        "succeeded": true,
+        "session_resume": {
+          "resumed": false,
+          "cold_reason": "first_run"
+        },
+        "parallel_delegation": {
+          "available": true,
+          "used": false,
+          "count": 0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-21T01:00:10.857Z",
+      "action": "completed_step",
+      "step": "test-strategy"
+    },
+    {
+      "timestamp": "2026-08-21T01:00:10.868Z",
+      "action": "navigated_forward",
+      "to_step": "test-strategy-validation",
+      "from_step": "test-strategy"
+    }
+  ],
+  "configuration": {
+    "capability_configured": true
+  },
+  "parameters": {
+    "prd_path": "./artifacts/outputs/product-definition/prd",
+    "epics_path": "./artifacts/outputs/product-definition/epics",
+    "project_name": "InsideFIFA-WEB",
+    "input_folder": "./artifacts/inputs",
+    "output_folder": "./artifacts/outputs/quality-engineering-planning",
+    "domain_boundaries_path": "./artifacts/outputs/software-architecture/domain-boundaries",
+    "adrs_path": "./artifacts/outputs/software-architecture/adrs",
+    "target_architecture_path": "./artifacts/outputs/software-architecture/target-architecture",
+    "user_stories_path": "./artifacts/outputs/product-delivery/user-stories",
+    "test_strategy_path": "./artifacts/outputs/quality-engineering-planning/STRATEGY-SPEC-Test-Strategy-1.md",
+    "master_test_plan_path": "./artifacts/outputs/quality-engineering-planning",
+    "e2e_tc_path": "./artifacts/outputs/quality-engineering-planning/e2e-test-cases",
+    "criteria_base_path": "./criteria"
+  },
+  "tags": {
+    "organization_id": "Test-FIFA",
+    "project_id": "InsideFifa-Test",
+    "work_ids": [
+      "InsideFIFAP-"
+    ]
+  },
+  "updated_at": "2026-08-21T01:00:10.886Z",
+  "stepwise_version": "1.39.1",
+  "seq": 11,
+  "devin_session_id": "16b7e430-4b86-4863-a6ee-2c95a1d39101",
+  "archetype_summary": {
+    "by_archetype": {
+      "gate": {
+        "step_count": 3,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "synthesize": {
+        "step_count": 2,
+        "billable_step_count": 1,
+        "raw": {
+          "input_tokens": 2589454,
+          "output_tokens": 16082,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 2669864,
+        "billable_supervised_tokens": 1584526,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "generate": {
+        "step_count": 1,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-internal": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "discover-deliverable": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "review": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "transform": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "excursion": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      },
+      "refinement": {
+        "step_count": 0,
+        "billable_step_count": 0,
+        "raw": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_creation_tokens": 0,
+          "cache_read_tokens": 0,
+          "cost_usd": 0
+        },
+        "supervised_tokens": 0,
+        "billable_supervised_tokens": 0,
+        "held_supervised_tokens": 0,
+        "mode1_overhead": 0,
+        "mode1_overhead_cost_usd": 0,
+        "mode2_discarded": 0,
+        "mode2_discarded_cost_usd": 0,
+        "iteration_overhead": 0,
+        "iteration_overhead_cost_usd": 0,
+        "iteration_supervised_tokens": 0,
+        "iteration_billable_supervised_tokens": 0,
+        "iteration_billable_cost_usd": 0
+      }
+    },
+    "totals": {
+      "supervised_tokens": 2669864,
+      "billable_supervised_tokens": 1584526,
+      "held_supervised_tokens": 0,
+      "cost_usd": 0,
+      "supervised_cost_usd": 0,
+      "billable_cost_usd": 0,
+      "mode1_overhead_supervised_tokens": 0,
+      "mode1_overhead_cost_usd": 0,
+      "mode2_discarded_supervised_tokens": 0,
+      "mode2_discarded_cost_usd": 0,
+      "iteration_overhead_supervised_tokens": 0,
+      "iteration_overhead_cost_usd": 0,
+      "iteration_supervised_tokens": 0,
+      "iteration_billable_supervised_tokens": 0,
+      "iteration_billable_cost_usd": 0,
+      "management_supervised_tokens": 0,
+      "management_cost_usd": 0
+    },
+    "audit_flags": [],
+    "last_computed_at": "2026-08-21T01:00:10.874Z"
+  }
+}

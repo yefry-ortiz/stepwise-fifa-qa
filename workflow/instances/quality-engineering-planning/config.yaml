@@ -1,0 +1,18 @@
+capability: quality-engineering-planning
+version: 1.0.0
+parameters:
+  prd_path: ./artifacts/outputs/product-definition/prd
+  epics_path: ./artifacts/outputs/product-definition/epics
+  project_name: InsideFIFA-WEB
+  input_folder: ./artifacts/inputs
+  output_folder: ./artifacts/outputs/quality-engineering-planning
+  domain_boundaries_path: ./artifacts/outputs/software-architecture/domain-boundaries
+  adrs_path: ./artifacts/outputs/software-architecture/adrs
+  target_architecture_path: ./artifacts/outputs/software-architecture/target-architecture
+  user_stories_path: ./artifacts/outputs/product-delivery/user-stories
+  test_strategy_path: ./artifacts/outputs/quality-engineering-planning/qa-test-strategy
+  master_test_plan_path: ./artifacts/outputs/quality-engineering-planning/qa-master-test-plan
+  e2e_tc_path: ./artifacts/outputs/quality-engineering-planning/e2e-test-cases
+  criteria_base_path: ./criteria
+configuration:
+  capability_configured: true

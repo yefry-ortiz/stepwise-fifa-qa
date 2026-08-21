@@ -1,0 +1,78 @@
+[
+  {
+    "execution_id": "1e900f8f-19d4-4106-a936-a2b34f96eb47",
+    "step_id": "test-master-plan",
+    "version_sequence": 1,
+    "session_name": "Test-Strategy-1",
+    "capability_name": "quality-engineering-planning",
+    "started_at": "2026-08-21T00:41:48.285Z",
+    "completed_at": "2026-08-21T00:45:34.094Z",
+    "duration_seconds": 226,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda",
+    "run_id": "1787272908285-18rq9bpb",
+    "model": "globant_dgx/GLM-4.6",
+    "model_tier": "orchestrator",
+    "session_resume": {
+      "resumed": false,
+      "cold_reason": "first_run"
+    },
+    "parallel_delegation": {
+      "available": true,
+      "used": false,
+      "count": 0
+    },
+    "token_usage": {
+      "input_tokens": 1541236,
+      "output_tokens": 8658,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0
+    },
+    "items_spawned": 2,
+    "artifact_group_id": "af84d100-737f-4533-85fc-1905d041ae77",
+    "project_id": "InsideFifa-Test",
+    "organization_id": "Test-FIFA",
+    "work_ids": [
+      "InsideFIFAP-"
+    ]
+  },
+  {
+    "execution_id": "f794f629-6264-4a57-8486-500604a7a121",
+    "step_id": "test-strategy",
+    "version_sequence": 1,
+    "session_name": "Test-Strategy-1",
+    "capability_name": "quality-engineering-planning",
+    "started_at": "2026-08-21T00:57:27.186Z",
+    "completed_at": "2026-08-21T01:00:10.820Z",
+    "duration_seconds": 164,
+    "status": "Success",
+    "request_type": "Generation",
+    "executor": "coda",
+    "run_id": "1787273847186-cdunjcw1",
+    "model": "globant_dgx/GLM-4.6",
+    "model_tier": "orchestrator",
+    "session_resume": {
+      "resumed": false,
+      "cold_reason": "first_run"
+    },
+    "parallel_delegation": {
+      "available": true,
+      "used": false,
+      "count": 0
+    },
+    "token_usage": {
+      "input_tokens": 1048218,
+      "output_tokens": 7424,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0
+    },
+    "items_spawned": 1,
+    "artifact_group_id": "fb109bbe-7918-4672-8f52-d3f4fbf62ffc",
+    "project_id": "InsideFifa-Test",
+    "organization_id": "Test-FIFA",
+    "work_ids": [
+      "InsideFIFAP-"
+    ]
+  }
+]
